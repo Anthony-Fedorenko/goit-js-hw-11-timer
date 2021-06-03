@@ -30,5 +30,5 @@ class CountdownTimer {
 
 new CountdownTimer({
     selector: '#timer-1',
-    targetDate: new Date('June 03, 2021 17:43'),
+    targetDate: new Date(`${setTime()}`),
 }).updateDate();
